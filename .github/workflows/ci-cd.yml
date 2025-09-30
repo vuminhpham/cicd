@@ -23,4 +23,3 @@
 
         - name: Push Docker image
           run: docker push ${{ secrets.DOCKER_USERNAME }}/react-app:latest
-
